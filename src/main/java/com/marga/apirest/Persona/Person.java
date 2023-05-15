@@ -5,13 +5,12 @@ import jakarta.persistence.Basic;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
+
 import lombok.Data;
-import lombok.NoArgsConstructor;
+
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+
 @Entity
 public class Person {
     
@@ -20,7 +19,20 @@ public class Person {
     private Integer id;
     @Basic
     private String nombre;
-     private String password;
+    private String password;
     private String email;
+
+    public Person(Integer id, String nombre, String password, String email) {
+        this.id = id;
+        this.nombre = nombre;
+        this.password = password;
+        this.email = email;
+    }
+
+    public Person() {
+    }
+    
+
+    
     
 }

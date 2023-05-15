@@ -24,4 +24,12 @@ public class PersonService {
          return personRepo.existsById(id);
     }
     
+    public Person login(String email, String password){
+    return personRepo.findByEmailAndPassword(email, password);
+    }
+    
+    
+            
+    
+    
 }

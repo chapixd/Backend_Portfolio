@@ -10,4 +10,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface iPersonRepository extends JpaRepository <Person, Integer> {
     
+    public Person findByEmailAndPassword(String email, String password);
 }
