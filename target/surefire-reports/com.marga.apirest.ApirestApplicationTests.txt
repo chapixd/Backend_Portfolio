@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.marga.apirest.ApirestApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.736 s - in com.marga.apirest.ApirestApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.809 s - in com.marga.apirest.ApirestApplicationTests
