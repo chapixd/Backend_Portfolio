@@ -1,0 +1,16 @@
+com\marga\apirest\Repository\RExperiencia.class
+com\marga\apirest\Controller\Mensaje.class
+com\marga\apirest\Educacion\Educacion.class
+com\marga\apirest\Controller\CExperiencia.class
+com\marga\apirest\Persona\iPersonRepository.class
+com\marga\apirest\ApirestApplication.class
+com\marga\apirest\Persona\Person.class
+com\marga\apirest\Exp\Experiencia.class
+com\marga\apirest\Service\SEducacion.class
+com\marga\apirest\Dto\dtoExperiencia.class
+com\marga\apirest\Service\PersonService.class
+com\marga\apirest\Controller\CEducacion.class
+com\marga\apirest\Dto\dtoEducacion.class
+com\marga\apirest\Repository\REducacion.class
+com\marga\apirest\Controller\PersonController.class
+com\marga\apirest\Service\SExperiencia.class
