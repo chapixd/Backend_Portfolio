@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/person")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://portfolio-frontend-maximo.web.app/")
+@CrossOrigin(origins = "https://portfolio-frontend-maximo.web.app")
 
 public class PersonController {
     
